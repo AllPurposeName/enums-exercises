@@ -43,8 +43,13 @@ class MapTest < Minitest::Test
       end
       return number
     end
+
+
     assert_equal ["00234", "00010", "09119", "38881"], zip_codes
   end
+
+
+
 
   def test_backwards
     names = ["alice", "bob", "charlie", "david", "eve"]
